@@ -1,6 +1,6 @@
 import java.util.regex.Pattern;
 
-public class _20_Valid_Parentheses {
+public class _0020_Valid_Parentheses {
     public static boolean isValid(String s) {
         if(s.length() < 1 || s.length() > Math.pow(10, 4)) {
             return false;

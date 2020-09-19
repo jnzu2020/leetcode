@@ -1,4 +1,4 @@
-public class _7_Reverse_Integer {
+public class _0007_Reverse_Integer {
     public static int reverse(int x) {
         boolean negative = false;
         if(x == 0) {
