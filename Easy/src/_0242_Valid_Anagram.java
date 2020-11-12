@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class _242_Valid_Anagram {
+public class _0242_Valid_Anagram {
     public static boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
             return false;
