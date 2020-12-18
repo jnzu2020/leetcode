@@ -11,11 +11,11 @@ public class _0504_Base_7 {
             quotient /= 7;
             result.append(rest);
         }
-        String str = result.reverse().toString();
+        String resultStr = result.reverse().toString();
         if (isNegativ) {
-            str = "-" + str;
+            resultStr = "-" + resultStr;
         }
-        return str;
+        return resultStr;
     }
 
     public static void main(String[] args) {
